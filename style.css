@@ -575,7 +575,7 @@ body {
 .card-b-1 {
     background-color: var(--clr-primary-200);
     border-radius: 20px;
-    padding: 3rem;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -599,7 +599,7 @@ body {
 .card-b-2 {
     background-color: var(--clr-primary-100);
     border-radius: 20px;
-    padding: 3rem;
+    padding: 2rem;
 }
 
 .card-b-2 img {
@@ -839,7 +839,7 @@ body {
 .about-card-1 {
     background-color: var(--clr-primary-100);
     border-radius: 20px;
-    padding: 3rem;
+    padding: 2rem;
 }
 
 .about-card-1 h3 {
@@ -857,7 +857,7 @@ body {
 .about-card-2 {
     background-color: var(--clr-primary-500);
     border-radius: 20px;
-    padding: 3rem;
+    padding: 2rem;
 }
 
 .about-card-2 h3 {
@@ -905,6 +905,7 @@ body {
     }
 
     .about-cards {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
         margin-top: 2rem;
     } 
 
@@ -996,7 +997,7 @@ body {
     .classes-wrapper {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        padding: 4rem;
+        padding: 1rem;
     }
     
     .classes-text p {
@@ -1036,6 +1037,7 @@ body {
 @media (max-width: 480px) {
     .classes-wrapper {
         margin-top: 6rem;
+        padding: 2rem;
     }
 
     .classes-text h2 {
@@ -1047,7 +1049,7 @@ body {
     .classes-text p {
         font-size: var(--fs-200);
         margin-top: 2rem;
-        margin-right: 0;
+        margin-right: 3rem;
     }
     
     .classes-btn button {
@@ -1058,7 +1060,11 @@ body {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
         gap: 1rem;
-        min-height: 800px;
+        min-height: 600px;
+    }
+
+    .classes-card {
+        padding: 1.5rem;
     }
 
     .classes-card h3 {
