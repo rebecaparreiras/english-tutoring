@@ -30,9 +30,9 @@
 </template>
 
 <script setup>
-import { useMenu } from '../composables/useMenu';
-const { isMenuOpen, toggleMenu } = useMenu();
-console.log('Header - isMenuOpen:', isMenuOpen);
+import { inject } from 'vue';
+
+const toggleMenu = inject('toggleMenu');
 </script>
 
 <style scoped>

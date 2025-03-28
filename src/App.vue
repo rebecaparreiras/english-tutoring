@@ -5,7 +5,7 @@
   <Footer />
 </template>
 
-<script>
+<!-- <script>
 import Header from './components/Header.vue';
 import MobileMenu from './components/MobileMenu.vue';
 import Footer from './components/Footer.vue';
@@ -17,6 +17,12 @@ export default {
     Footer,
   },
 };
+</script> -->
+
+<script setup>
+import Header from './components/Header.vue';
+import MobileMenu from './components/MobileMenu.vue';
+import Footer from './components/Footer.vue';
 </script>
 
 <style>

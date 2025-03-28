@@ -17,13 +17,12 @@
 </template>
 
 <script setup>
-import { useMenu } from '../composables/useMenu';
-import { ref, watchEffect } from 'vue';
+import { inject, watch } from 'vue';
 
-const { isMenuOpen } = useMenu();
+const isMenuOpen = inject('isMenuOpen');
 
-watchEffect(() => {
-  console.log('MobileMenu - isMenuOpen changed:', isMenuOpen.value);
+watch(isMenuOpen, (newValue) => {
+  console.log('MobileMenu - isMenuOpen changed (injected ref):', newValue);
 });
 </script>
 
