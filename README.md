@@ -1,12 +1,12 @@
 # English Tutoring
 
-O site Pri Figueiredo | English Tutoring foi desenvolvido com o objetivo de criar um melhor UI/UX para os alunos e futuros alunos da professora de inglês Pri Figueiredo. 
+The website Pri Figueiredo | English Tutoring was developed for the teacher Pri Figueiredo and her students' classes.
 
-Como ex-aluna da professora, algumas conversas sobre o site foram desenvolvidas e, após uma conversa sobre os desejos e vontades para o site, o design apresentado foi o resultado.
+As a former Pri's student, we had shared many discussions about her ideal website, and the design presented is the final result.
 
-As principais questões abordadas foram: um site que refletisse a personalidade da professora, com fundo escuro, uso de cores e bordas curvas, além de uma navegação fácil e intuitiva. 
+The teacher's main wishes were: a website that reflects her personality, with dark background, colorful and the use of round borders. Besides, she wanted the navigation to be easy and intuitive.
 
-## Tecnologias:
+## Technologies:
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-plain-wordmark.svg" width="40" height="40"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-plain-wordmark.svg" width="40" height="40"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width="40" height="40"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original-wordmark.svg" width="40" height="40"/>
           
           
