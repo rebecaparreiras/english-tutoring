@@ -5,8 +5,10 @@ O site Pri Figueiredo | English Tutoring foi desenvolvido como estudo para a pro
 Como fui sua aluna, tivemos diversas discussões sobre como melhorar o site existente e buscamos referências e modelos do site ideal para a Pri, respeitando a estética que a agradava e unindo à funcionalidade desejada.
 
 Os desejos principais da professora foram: um site que refletisse sua personalidade; utilização de background escuro; uso de cores e bordas arredondadas; navegação simples e intuitiva. 
-<br>
-<br>
+
+<p align="center">
+  <img src="readme-resources/english-tutoring-gif-01.gif" alt="Demonstração do site">
+</p>
 
 ### Vue.js
 Foi uma oportunidade de utilizar o ambiente Vite para testar o uso do Vue.js, uma vez que é um projeto simples e que me permitiria explorar o framework de maneira rápida. 
@@ -18,6 +20,14 @@ Tive a oportunidade de ter o meu primeiro contato com um projeto dividido em vie
 O site conta com duas páginas principais: Home e Classes.
 <br>
 
+<p align="center">
+  <img src="readme-resources/english-tutoring-gif-02.gif" alt="Demonstração do site">
+</p>
+<p align="center">
+  Página 'Classes'
+</p>
+
+<br>
 • Components
 <br>
 Header, Footer e MobileMenu são os componentes comuns a todas as páginas.
